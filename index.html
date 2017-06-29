@@ -3,6 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
@@ -27,7 +29,7 @@
             margin-top: 0;
             z-index: 9999;
         }
-        
+
         #grad1 {
             background: -webkit-linear-gradient(left, rgba(139, 5, 173,1), rgba(139, 5, 173,0)); /* For Safari 5.1 to 6.0 */
             background: -o-linear-gradient(right, rgba(139, 5, 173,1), rgba(139, 5, 173,0)); /* For Opera 11.1 to 12.0 */
@@ -140,9 +142,14 @@
         body, html {
             height: 100%;
         }
-        
+
         body {
-            overflow: hidden;
+            background-color: black;
+            background: url(phone.jpg) no-repeat center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
 
     </style>
@@ -158,13 +165,22 @@
     <br>
     <br>
     <div class="container-fluid jumbotron jtitle" id="first" style="margin-bottom: 0px;">
-        <h1 class="title oswald" id="grad1"><b>MED</b>SPACE<b> &#x2795;</b></h1>
+        <h1 class="title oswald" id="grad1"><b>MED</b>SPACE <i class="fa fa-plus" aria-hidden="true"></i></h1>
     </div>
-    <div id="first" style="padding: 20px; padding-bottom: 240px;">
+    <div id="" style="padding: 20px; padding-bottom: 240px;">
         <div class="jumbotron oswald centered jmain" style="margin-top: 10px;">
             <h1>Welcome to MedSpace.</h1>
             <p style="margin-bottom: 0px;">A social platform which allows patients and doctors to interact</p>
             <h2 style="margin-bottom: 115px;">without lengthy commutes.</h4>
+        </div>
+    </div>
+    <div id="" style="padding: 20px; padding-bottom: 240px;">
+        <div class="jumbotron oswald centered jmain" style="margin-top: 10px;">
+            <h1>Why MedSpace?</h1>
+            <p style="margin-bottom: 0px;">All around the world, there are people suffering from various medical conditions. And many,
+            for many different reasons, may not be capable of seeing a doctor when they need to. MedSpace allows for people suffering
+            from medical conditions to contact their personal doctor quickly and efficiently, as well as others with the same condition.</p>
+            <h2 style="margin-bottom: 115px;">So, what are you waiting for?</h4>
         </div>
     </div>
 </body>
