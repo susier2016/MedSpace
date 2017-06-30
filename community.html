@@ -8,17 +8,17 @@
         @import url('https://fonts.googleapis.com/css?family=PT+Sans');
         @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
         @import url('https://fonts.googleapis.com/css?family=Raleway');
-      
+
        .fixed {
             position: fixed;
             margin-top: 0;
             z-index: 9999;
         }
-      
+
        .purple {
             background: #8b05ad;
         }
-      
+
        div.container {
             font-family: Raleway;
             margin: 0 auto;
@@ -26,7 +26,7 @@
             text-align: center;
             width: 100%;
        }
-      
+
        div.container a {
             color: #FFF;
             text-decoration: none;
@@ -37,7 +37,7 @@
             z-index: 0;
             cursor: pointer;
        }
-      
+
        div.container {
             font-family: Raleway;
             margin: 0 auto;
@@ -45,7 +45,7 @@
             text-align: center;
             width: 100%;
         }
-      
+
         div.container a {
             color: #FFF;
             text-decoration: none;
@@ -67,28 +67,34 @@
             opacity: 0;
             transition: all 0.3s;
         }
-      
+
         div.topBotomBordersOut a:before {
             top: 0px;
             transform: translateY(15px);
         }
-      
+
         div.topBotomBordersOut a:after {
             bottom: 0px;
             transform: translateY(-15px);
         }
-      
+
         div.topBotomBordersOut a:hover:before,
         div.topBotomBordersOut a:hover:after {
             opacity: 1;
             transform: translateY(0px);
         }
-      
+
         body {
             margin: 0px;
             padding: 0px;
+            background-color: black;
+            background: url(communityBG.png) no-repeat center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
-      
+
     </style>
   </head>
   <body>
@@ -100,5 +106,5 @@
      </div>
      <br>
      <br>
-  </body> 
+  </body>
 </html>
